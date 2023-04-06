@@ -1,0 +1,1 @@
+Compra do produto ${product_name}, no valor de R$ ${value}, em ${date} realizada com sucesso.

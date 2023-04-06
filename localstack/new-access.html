@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Novo login em sua conta</title>
+  <style>
+      /* Estilos do template */
+      body {
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #333;
+        background-color: #f8f8f8;
+      }
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ddd;
+        background-color: #fff;
+      }
+      h1 {
+        margin-top: 0;
+        font-size: 24px;
+        color: #444;
+      }
+      p {
+        margin-bottom: 20px;
+      }
+      .button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #333;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 4px;
+      }
+    </style>
+</head>
+<body>
+<div class="container">
+  <h1>Novo login em sua conta</h1>
+  <p>Olá ${name}</p>
+  <p>Gostaríamos de informar que uma nova tentativa de login foi realizada na sua conta em <strong>${date}</strong>.</p>
+  <p>Pelo dispositivo <strong>${device}</strong></p>
+  <p>Caso você não tenha realizado essa ação, pedimos que altere sua senha imediatamente e entre em contato com nosso suporte para mais informações.</p>
+  <p>Se você reconhece esta atividade, não é necessário nenhuma ação adicional. No entanto, recomendamos que você monitore suas atividades de login para garantir a segurança da sua conta.</p>
+<!--  <p><a href="#" class="button">Entrar em contato com o suporte</a></p>-->
+  <p>Atenciosamente,<br>Free Market</p>
+</div>
+</body>
+</html>
