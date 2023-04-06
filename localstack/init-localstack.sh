@@ -21,8 +21,8 @@ awslocal s3 cp /etc/localstack/init/ready.d/welcome.html s3://communication-d-1/
 awslocal s3 cp /etc/localstack/init/ready.d/password-updated.html s3://communication-d-1/emails/
 awslocal s3 cp /etc/localstack/init/ready.d/new-access.html s3://communication-d-1/emails/
 awslocal s3 cp /etc/localstack/init/ready.d/new-purchase.html s3://communication-d-1/emails/
-awslocal s3 cp /etc/localstack/init/ready.d/email-updated s3://communication-d-1/emails/
-awslocal s3 cp /etc/localstack/init/ready.d/phone-updated s3://communication-d-1/emails/
+awslocal s3 cp /etc/localstack/init/ready.d/email-updated.html s3://communication-d-1/emails/
+awslocal s3 cp /etc/localstack/init/ready.d/phone-updated.html s3://communication-d-1/emails/
 awslocal s3 cp /etc/localstack/init/ready.d/redefine-password.txt s3://communication-d-1/sms/
 awslocal s3 cp /etc/localstack/init/ready.d/new-purchase.txt s3://communication-d-1/push/
 
